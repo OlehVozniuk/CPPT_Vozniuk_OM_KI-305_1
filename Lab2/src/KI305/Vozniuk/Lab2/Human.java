@@ -10,11 +10,15 @@ import java.io.PrintWriter;
  *  @version 1.0
  */
 public class Human {
+    public static String NAME = "";
     private String name;
     private AthleteDetails athletics;
     private HealthRecords health;
     private FinancialDetails finances;
     private PrintWriter fout;
+
+
+
 
     /**
      * Constructor
@@ -32,6 +36,10 @@ public class Human {
         health = new HealthRecords(HealthResults);
         finances = new FinancialDetails();
         fout = new PrintWriter(new File(outPutFile));
+        if(age > 25){
+            NAME = name;
+        }
+
     }
     /**
      * this.name = name; athletics = new AthleteDetails(age, height, weight);
@@ -100,6 +108,7 @@ public class Human {
     public String getBankInfo(){
         return finances.getBankInfo();
     }
+
     /**
      *  Method exits
      */

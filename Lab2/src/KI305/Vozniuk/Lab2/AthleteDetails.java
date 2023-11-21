@@ -1,9 +1,11 @@
 package KI305.Vozniuk.Lab2;
-import java.io.PrintWriter;
+
 public class AthleteDetails {
+    private String name;
     private int age;
     private double height;
     private double weight;
+
     /**
      * Constructor
      *  @param age person name
@@ -12,14 +14,17 @@ public class AthleteDetails {
      */
     public AthleteDetails(int age, double height, double weight)
     {
-        this.age = age;
+
+
         this.height = height;
         this.weight = weight;
     }
+
     /**
      *  Method returns age
      */
     public int getAge(){
+
         return age;
     }
     /**

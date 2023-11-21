@@ -4,8 +4,8 @@ import java.io.FileNotFoundException;
 
 interface ISportsman{
     void running(int metres);
-
 }
+
 /**
  *  Class Sportsman
  *  @version 1.0
@@ -32,6 +32,5 @@ public class Sportsman extends Human implements ISportsman{
         int sec = metres/7;
         System.out.println(super.getName() + " have to finish running in " + sec + " seconds");
     }
-
 }
 

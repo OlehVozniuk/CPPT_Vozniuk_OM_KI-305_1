@@ -10,7 +10,7 @@ import java.io.PrintWriter;
  *  @version 1.0
  */
 
-public abstract class Human {
+public class Human {
     private String name;
     private AthleteDetails athletics;
     private HealthRecords health;
