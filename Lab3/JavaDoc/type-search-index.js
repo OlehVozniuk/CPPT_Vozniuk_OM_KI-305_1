@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"KI305.Vozniuk.Lab3","l":"AthleteDetails"},{"p":"KI305.Vozniuk.Lab3","l":"FinancialDetails"},{"p":"KI305.Vozniuk.Lab3","l":"HealthRecords"},{"p":"KI305.Vozniuk.Lab3","l":"Human"},{"p":"KI305.Vozniuk.Lab3","l":"HumanApp"},{"p":"KI305.Vozniuk.Lab3","l":"Sportsman"}];updateSearchResults();
