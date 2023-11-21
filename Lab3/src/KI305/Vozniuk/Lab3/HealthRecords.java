@@ -1,4 +1,4 @@
-package KI305.Vozniuk.Lab2;
+package KI305.Vozniuk.Lab3;
 
 public class HealthRecords {
     private String testResults;

@@ -1,7 +1,7 @@
 /**
  * lab 2 package
  */
-package KI305.Vozniuk.Lab2;
+package KI305.Vozniuk.Lab3;
 import java.io.*;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

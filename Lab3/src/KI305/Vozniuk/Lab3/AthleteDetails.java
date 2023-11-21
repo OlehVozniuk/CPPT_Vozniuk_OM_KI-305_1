@@ -1,5 +1,5 @@
-package KI305.Vozniuk.Lab2;
-import java.io.PrintWriter;
+package KI305.Vozniuk.Lab3;
+
 public class AthleteDetails {
     private int age;
     private double height;
